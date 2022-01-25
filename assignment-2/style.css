@@ -1,0 +1,105 @@
+#header, #footer{
+    width:100%;
+    top: 0;
+    left: 0;
+    margin: 10px 0px 10px 0px;
+}
+
+h1, h2, h3 ,p{
+    margin: 0px 10px 0px 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(http://fonts,googleapis.com/css?family=Open+Sans);
+}
+
+h2, h3{
+    font-family: OpenSans,sans-serif;
+}
+
+#header{
+    background-color: royalblue;
+    border-style: outset;
+    border-width: 5px;
+    border-color: lightblue;
+}
+
+#header h1, #header h2{
+    color: white;
+    text-shadow: #333;
+}
+
+#header h1{
+    margin-bottom: 0px;
+}
+
+#header h2{
+    font-size: 1.2em;
+    font-family: Garamond, sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+#content h2{
+    border-bottom:  1px solid;
+    border-color: #999999;
+}
+
+.rank{
+    color: white;
+    background-color: black;
+}
+
+.place{
+    margin: 10px 0px 10px 0px;
+}
+
+.place p{
+    text-align: justify;
+    text-indent: 2em;
+    color: #999999;
+}
+
+.place p::first-line{
+    color: black;
+}
+
+#content a{
+    color: blue;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+#footer a{
+    color: white;
+}
+
+#footer li:nth-child(n+3){
+    list-style-type: circle;
+}
+
+#footer li:nth-child(2){
+    font-weight: bold;
+}
+
+#footer p{
+    text-align: center;
+    color: yellow;
+    font-style: oblique;
+}
